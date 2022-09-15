@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="entercity">Please enter city</string>
+    <string name="next">NEXT</string>
+    <string name="finish_sign_up">FINISH</string>
+    <string name="change_number">Login with another number?</string>
+    <string name="click_here">Click Here!</string>
+    <string name="hours">Hours</string>
+    <string name="hour">Hour</string>
+    <string name="minutes">Minutes</string>
+    <string name="mcq_zone">MCQ Zone</string>
+    <string name="video_zone">Video Zone</string>
+</resources>

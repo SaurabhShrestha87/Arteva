@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "951301079945",
+    "project_id": "arteva-edu",
+    "storage_bucket": "arteva-edu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951301079945:android:7bb83302f62515ae2d9758",
+        "android_client_info": {
+          "package_name": "com.arteva.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951301079945-0aecqllnh6kvbbbijokhpncd66qo5ppu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arteva.user",
+            "certificate_hash": "823abb4b76c1a3b91e9c435c55b522d7be061fee"
+          }
+        },
+        {
+          "client_id": "951301079945-e9207f1v2imfs6g04lr06se3imfhnlpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_KYoIrc2uyRp6bqo9e6MKqNEcqhT9jyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951301079945-e9207f1v2imfs6g04lr06se3imfhnlpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

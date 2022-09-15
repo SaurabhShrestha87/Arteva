@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Arteva edu tech</string>
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="completed" translatable="false">Congratulations!!</string>
+    <string name="congratulations" translatable="false">Congratulations!!</string>
+    <string name="time_challenge_msg" translatable="false">You have completed challenge in&#160;</string>
+    <string name="sec" translatable="false">&#160;sec&#160;</string>
+    <string name="secbattle" translatable="false">sec</string>
+    <string name="not_completed" translatable="false">Better Luck Next Tme</string>
+    <string name="select_level" translatable="false">Select Level</string>
+    <string name="select_category" translatable="false">Select Category</string>
+
+    <string name="select_sub_category" translatable="false">Select SubCategory</string>
+    <string name="self_challenge" translatable="false">Self Challenge</string>
+    <string name="daily_quiz" translatable="false">Daily Quiz</string>
+    <string name="account_delete" translatable="false">Account Delete?</string>
+    <string name="delete_msg" translatable="false">Are you sure you want to delete your Account?\nThis action cannot be undone.After your account deleted , you will be logged out and all other  active session will be terminated.</string>
+    <string name="random_quiz" translatable="false">Random Quiz</string>
+    <string name="contest" translatable="false">Contest</string>
+    <string name="sound" translatable="false">Sound</string>
+    <string name="Username" translatable="false">Username</string>
+    <string name="share_app" translatable="false">Share App</string>
+    <string name="update_msg_1" translatable="false">Update the app for a batter experience!</string>
+    <string name="not_now" translatable="false">Not Now</string>
+    <string name="update_now" translatable="false">Update</string>
+    <string name="update_alert" translatable="false">Update Alert</string>
+    <string name="vibration" translatable="false">Vibration</string>
+    <string name="rateapp" translatable="false">Rate Us</string>
+    <string name="bg_music" translatable="false">Background Music</string>
+    <string name="share_via" translatable="false">Share via</string>
+    <string name="next_play" translatable="false">Play Next Level</string>
+    <string name="play_again" translatable="false">Play Again</string>
+    <string name="quite" translatable="false">Home</string>
+    <string name="review_answer" translatable="false">Review</string>
+    <string name="share_score" translatable="false">Share Score</string>
+    <string name="share_result" translatable="false">Share Result</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="play_next" translatable="false">Play Again</string>
+    <string name="lets_play" translatable="false">Let\'s Play</string>
+    <string name="instruction" translatable="false">Instruction</string>
+    <string name="coinstore" translatable="false">Coin Store</string>
+    <string name="msg_no_internet" translatable="false">No internet connection!!</string>
+    <string name="no_category" translatable="false">category not available!!</string>
+    <string name="no_data" translatable="false">data not found!!</string>
+    <string name="ttl_ques" translatable="false">Ques :&#160;</string>
+    <string name="select_no_of_question" translatable="false">Select Number Of Questions</string>
+    <string name="select_time_period" translatable="false">Select Time Period in Minutes</string>
+    <string name="no_sub_category" translatable="false">sub category not available!!</string>
+    <string name="no_enough_question" translatable="false">Not enough questions, to play level.</string>
+    <string name="no_enough_questiondaily" translatable="false">Daily Quiz not Available or you already played Daily Quiz!!</string>
+    <string name="retry" translatable="false">RETRY</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="lets_start" translatable="false">Let\'s Start</string>
+    <string name="hello" translatable="false">Hello,&#160;</string>
+    <string name="_coins" translatable="false">&#160;Coins</string>
+    <string name="bm_empty_msg" translatable="false">bookmark not available</string>
+    <string name="empty_alert_msg" translatable="false">Field should not be empty</string>
+    <string name="a" translatable="false">A</string>
+    <string name="b" translatable="false">B</string>
+    <string name="c" translatable="false">C</string>
+    <string name="d" translatable="false">D</string>
+    <string name="e" translatable="false">E</string>
+    <string name="un_attend" translatable="false">Un-Attempted</string>
+    <string name="answer" translatable="false">answer</string>
+    <string name="answerbookmark" translatable="false">Answer : </string>
+    <string name="extra_note" translatable="false">Extra Note</string>
+    <string name="note" translatable="false">Note</string>
+    <string name="ok" translatable="false">OKAY</string>
+    <string name="ad_attribution" translatable="false">Ad</string>
+    <string name="report" translatable="false">Report Question</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="review" translatable="false">Review</string>
+    <string name="result" translatable="false">Result</string>
+    <string name="title_already_used" translatable="false">Life Line Already Used !!</string>
+    <string name="msg_lifeline_used" translatable="false">You can use only once per level</string>
+    <string name="self_challenge_sub_msg" translatable="false">Are you sure ?\nYou want to submit this test?</string>
+    <string name="true_ans" translatable="false">True Ans: </string>
+    <string name="zero" translatable="false">0</string>
+    <string name="challenge_time" translatable="false">Challenge Time&#160;</string>
+    <string name="loading" translatable="false">Loading…</string>
+    <string name="bookmark_list" translatable="false">Bookmark List</string>
+    <string name="level_not_available" translatable="false">Level not available</string>
+    <string name="go_back" translatable="false">Go Back</string>
+    <string name="signup" translatable="false">CREATE ACCOUNT</string>
+    <string name="email_alert_1" translatable="false">Please enter email address</string>
+    <string name="email_alert_2" translatable="false">Please enter valid email address</string>
+    <string name="from_camera" translatable="false">Capture from Camera</string>
+    <string name="account_deactivate" translatable="false">Your Account is deactivate by admin</string>
+    <string name="select_language" translatable="false">Select Language</string>
+    <string name="refer_share_msg_1" translatable="false">I have earned coins using&#160;</string>
+    <string name="refer_share_msg_2" translatable="false">&#160;app. you can also earn coin by downloading app from below link and enter referral code while login-&#160; </string>
+    <string name="msg_enough_coin" translatable="false">Not Enough Coins !!</string>
+    <string name="coin_message1" translatable="false">You don\'t have enough coins. You need at least&#160;</string>
+    <string name="coin_message2" translatable="false">&#160;coins to use this lifeline. \n\nWatch a short video &amp; get free coins</string>
+    <string name="not_enough_coin" translatable="false">You don\'t have enough coins.</string>
+    <!--Leaderboard filter string-->
+
+
+    <string name="skip" translatable="false">Skip</string>
+    <string name="msg_watch_video" translatable="false">Watch Now</string>
+    <string name="attended" translatable="false">Attended Ques</string>
+    <string name="correct_ans" translatable="false">Correct Ans</string>
+    <string name="correct" translatable="false">Correct</string>
+    <string name="incorrect" translatable="false">InCorrect</string>
+    <string name="color_code" translatable="false">Color Code</string>
+    <string name="report_hint" translatable="false">Type a message</string>
+
+    <string name="about_us" translatable="false">About Us</string>
+    <string name="exit_msg" translatable="false">Do you want to exit the level?</string>
+    <string name="exit_msg_quiz" translatable="false">Do you want to exit the Quiz?</string>
+    <string name="bookmark_play" translatable="false">Play Bookmark</string>
+    <string name="all_complete_msg" translatable="false">You have Completed All Questions !!</string>
+    <string name="leave_msg_1" translatable="false">Are you sure?</string>
+    <string name="leave_msg_2" translatable="false">You haven\'t submitted this test yet. Are you sure you wan to leave?</string>
+
+    <!--instruction battle String-->
+    <string name="battle_msg1" translatable="false">\u25CF This will allow player vs player battle</string>
+    <string name="battle_msg2" translatable="false">\u25CF If not found any player to a battle, you can battle with the robot</string>
+    <string name="battle_msg3" translatable="false">\u25CF For battle, same questions will be served for both the player
+        &amp; the winner will be declared base on no of right answers</string>
+
+    <!--instruction  messages-->
+    <string name="has_option" translatable="false">Quiz game has 4 options</string>
+    <string name="msg_right" translatable="false">For each right answer 5 points will be given.</string>
+    <string name="msg_wrong" translatable="false">minus 2 points for each question</string>
+    <string name="msg_lifeline" translatable="false">Use of Lifeline  : You can use only once per level</string>
+    <string name="msg_fifty_fifty" translatable="false">50 – 50 : for remove two option out of Four(deduct 4 coins ).</string>
+    <string name="msg_skip" translatable="false">Skip question: you can pass question without minus points(deduct 2 coins).</string>
+    <string name="msg_opinion" translatable="false">Audience poll: use audience paul for check other users choose option(deduct 4 coins).</string>
+    <string name="msg_reset" translatable="false">Reset timer: Reset timer again if you needed more time score (deduct 2 coins).</string>
+    <string name="msg_leaderboard" translatable="false">You can compare your score with other users of apps</string>
+    <string name="leaderboard" translatable="false">Leaderboard</string>
+
+    <string name="textsize_dialog_lbl_fontsize" translatable="false">Font Size</string>
+    <string name="font_size" translatable="false">Font Size</string>
+    <string name="level_locked" translatable="false">Level is Locked</string>
+
+    <string name="update_profile" translatable="false">Update Profile</string>
+    <string name="user_statistics" translatable="false">User Statistics</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="mobile" translatable="false">Mobile Number</string>
+    <string name="back" translatable="false">BACK</string>
+    <string name="play_quiz" translatable="false">Quiz Zone</string>
+    <string name="play" translatable="false">Play</string>
+    <string name="battle_quiz" translatable="false">Battle Quiz</string>
+    <string name="bookmarks" translatable="false">Bookmarks</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="show_answer" translatable="false">Show Answer</string>
+    <string name="from_library" translatable="false">Choose from Library</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="city" translatable="false">City</string>
+    <string name="refer" translatable="false">Referral Code</string>
+    <string name="forgot_pass" translatable="false">Forgot Password?</string>
+    <string name="reset_pass" translatable="false">Enter the email address you used when creating the account. A message will be sent to that address containing a link to reset your password.</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="rank" translatable="false">Rank</string>
+    <string name="score" translatable="false">Score</string>
+    <string name="coins" translatable="false">Coins</string>
+    <string name="statistics" translatable="false">Statistics</string>
+    <string name="term_privacy" translatable="false">By Logging in / Signing Up, you agree to our \nTerms of Service and Privacy Policy</string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="terms" translatable="false">Terms of Service</string>
+    <string name="modulo_sign" translatable="false">%</string>
+    <!--Strings for battle-->
+    <string name="player_1" translatable="false">Player 1</string>
+    <string name="player_2" translatable="false">Player 2</string>
+    <string name="exit" translatable="false">EXIT</string>
+    <string name="play_with_computer1" translatable="false">Play With Robot</string>
+    <string name="congrats" translatable="false">Congratulation</string>
+    <string name="next_time" translatable="false">Batter Luck Next Time!!</string>
+    <string name="robot" translatable="false">Robot</string>
+    <string name="level" translatable="false">Level</string>
+    <string name="msg_player_not_available" translatable="false"><h3><b>Oops!</b></h3>\n Player Not Available For Battle!!</string>
+    <string name="question_not_available" translatable="false">Question Not Available</string>
+    <string name="leave_battle_txt" translatable="false"> &#160;has leave the game.</string>
+    <string name="msg_win_battle" translatable="false">, you win the Battle</string>
+    <string name="you_win" translatable="false">"You Win!! \n"</string>
+    <string name="msg_opponent_win_battle" translatable="false">&#160;win the Battle</string>
+    <string name="msg_alert_leave" translatable="false">"Are you sure,\n you want to leave battle ?"</string>
+    <string name="msg_draw_game" translatable="false">"Draw..!!\n The Game Is Over play again"</string>
+    <string name="try_again1" translatable="false">Try Again</string>
+    <string name="winner" translatable="false">Winner</string>
+    <string name="victory_" translatable="false">VICTORY</string>
+    <string name="you_loss" translatable="false">You Loss</string>
+    <string name="defeat" translatable="false">DEFEAT</string>
+    <string name="category" translatable="false">Category&#160;</string>
+    <string name="que" translatable="false">Que:&#160;</string>
+    <string name="avail_cate" translatable="false">Available Categories :&#160;</string>
+    <string name="search_player" translatable="false">Search Player</string>
+    <string name="leave_battle" translatable="false">Leave Battle</string>
+    <string name="yes" translatable="false">YES</string>
+    <string name="no" translatable="false">NO</string>
+    <string name="back_message" translatable="false">Are you sure , you  want to leave ?</string>
+    <string name="dailycompleted" translatable="false">Daily Quiz Completed!!</string>
+    <string name="learningcompleted" translatable="false">Learning Zone Completed!!</string>
+    <string name="mathscompleted" translatable="false">Maths Zone Completed!!</string>
+    <string name="randomcompleted" translatable="false">Random Quiz Completed!!</string>
+    <string name="truefalsecompleted" translatable="false">True/False Quiz Completed!!</string>
+    <!--invite friend msg-->
+    <string name="invite_frnd" translatable="false">Invite friends</string>
+    <string name="refer_code_copied" translatable="false">Refer Code Copied to Clipboard</string>
+    <string name="refer_message_1" translatable="false">Refer a Friend, and you will get&#160;</string>
+    <string name="refer_message_2" translatable="false">&#160;coins each time your referral code is used and your friend will get&#160;</string>
+    <string name="refer_message_3" translatable="false">&#160;coins by using your referral code</string>
+    <string name="your_refer_code" translatable="false">Your Referral Code</string>
+    <string name="tap_copy" translatable="false">Tap To Copy</string>
+    <string name="refer_now" translatable="false">SHARE NOW</string>
+    <string name="start_on" translatable="false">Starts On:</string>
+    <string name="ends_on" translatable="false">Ends On:</string>
+    <string name="ending_on" translatable="false">Ending On:</string>
+    <string name="not_enough_entry_coin" translatable="false"> Earn Coin And Join Contest </string>
+
+    <string name="today" translatable="false">Today</string>
+    <string name="month" translatable="false">Month</string>
+    <string name="all" translatable="false">All</string>
+    <string name="top_user" translatable="false">Top User :&#160;</string>
+    <string name="price" translatable="false">Price :&#160;</string>
+    <string name="past" translatable="false">Past</string>
+    <string name="live" translatable="false">Live</string>
+    <string name="upcoming" translatable="false">Upcoming</string>
+
+    <string name="victory" translatable="false">Victory</string>
+    <string name="re_battle" translatable="false">RE-Battle</string>
+    <string name="logout_msg" translatable="false">Are you sure!!\nYou want to Log out?</string>
+    <string name="true_false" translatable="false">True/False</string>
+    <string name="contest_complete" translatable="false">Contest Complete</string>
+    <string name="refer_code_generate_error_msg" translatable="false">Your refer code not generated please re-login for your refer code.</string>
+    <string name="category_select" translatable="false">Please select category</string>
+    <string name="subcategory_select" translatable="false">Please select subCategory</string>
+    <string name="question_select" translatable="false">Please select questions</string>
+    <string name="minutes_select" translatable="false">Please select minutes</string>
+    <string name="rewards_message" translatable="false">Rewards ads not loaded Try after some time!!</string>
+    <string name="rewads_adstitle" translatable="false">Ads not loaded!!</string>
+
+    <string name="otp_msg" translatable="false">OTP has been sent to you on your mobile phone. Please enter it below</string>
+    <string name="verify" translatable="false">Verify</string>
+    <string name="phone_num" translatable="false">Phone Number</string>
+    <string name="entry_fees" translatable="false">Entry fees</string>
+    <string name="participants" translatable="false">Players</string>
+    <string name="no_notification" translatable="false">Notification not available!!</string>
+    <!--facebook appId for login-->
+    <string name="facebook_app_id" translatable="false">2338640796222596</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2338640796222596</string>
+
+
+    <string name="refer_amp_earn" translatable="false"><![CDATA[Refer & Earn]]></string>
+
+    <!--New Strings-->
+
+    <string name="your_game_code" translatable="false">Your Game Code</string>
+    <string name="user_join_alert" translatable="false">Oopps!! No User Join</string>
+    <string name="user_join_alert_msg" translatable="false">Look like no user join game yet.</string>
+    <string name="join_room" translatable="false">Join Room</string>
+    <string name="enter_game_code" translatable="false">Enter Game Code</string>
+    <string name="game_code" translatable="false">GameCode</string>
+    <string name="stay_back" translatable="false">Stay Back</string>
+    <string name="leave" translatable="false">Leave</string>
+    <string name="multiplayer_game" translatable="false">Group Battle</string>
+    <string name="wait_for_players" translatable="false">Wait For Players</string>
+    <string name="minmum_user_join_alert" translatable="false">Wait for atleast one user to join game</string>
+    <string name="battle_result" translatable="false">Battle Result</string>
+    <string name="room_deactivate_alert" translatable="false">GameRoom Deactivated</string>
+    <string name="all_user_left_game" translatable="false">All User Quit Game</string>
+    <string name="destroy_game_room_msg" translatable="false">Game Room Deactivated</string>
+    <string name="room_created_msg" translatable="false">GameRoom Created Successfully</string>
+    <string name="leave_game_room_msg" translatable="false">Are You Sure , You Want to Leave Game?</string>
+    <string name="join" translatable="false">Join Room</string>
+    <string name="create" translatable="false">Create Room</string>
+    <string name="enter_code" translatable="false">Enter GameRoom Code</string>
+    <string name="view_all" translatable="false"><u>View All</u></string>
+    <string name="quiz_zone" translatable="false">Quiz Zone</string>
+    <string name="play_zone" translatable="false">Play Zone</string>
+    <string name="group_battle" translatable="false">Group Battle</string>
+    <string name="play_now" translatable="false">Play Now</string>
+    <string name="game_deactive_alert" translatable="false">GameRoom is Deactivate or Game Already Started </string>
+    <string name="gameroom_full" translatable="false">Maximum User Join Limit Reached!!</string>
+    <string name="share_code_msg" translatable="false">Here is My Group Battle Game Code : &#160;</string>
+    <string name="waiting_msg" translatable="false">Please wait a while till other player complete a game.</string>
+    <string name="game_code_alert" translatable="false">GameCode is Invalid</string>
+    <string name="practice" translatable="false">Practice</string>
+    <string name="gameroom_code_alert" translatable="false">GameCode is Invalid Please Check Code</string>
+    <string name="share_code" translatable="false">Share this room code with a friends and ask them to join</string>
+    <string name="share_code_oto" translatable="false">Share game code with your friend and play One-to-One battle.</string>
+    <string name="game_start_msg" translatable="false">Please wait game will be start in few seconds.</string>
+    <string name="device_language" translatable="false">Device Language</string>
+
+    <string name="one_to_one_battle" translatable="false">One v/s One Battle</string>
+    <string name="one_to_one_msg" translatable="false">Invite your friend and play one-to-one battle with them. </string>
+    <string name="Waiting_for_opponent" translatable="false">Waiting For Opponent</string>
+    <string name="start_game" translatable="false">Start Game</string>
+    <string name="room_create_msg" translatable="false">GameRoom Create Successfully</string>
+
+    <!--Ad Mob Ids-->
+
+
+    <string name="levea_msg3" translatable="false">Are you sure you want to leave PracticeQuiz?</string>
+    <string name="youloss" translatable="false">You Loss</string>
+    <string name="you" translatable="false">you</string>
+    <string name="enternumber" translatable="false">Enter your mobile number</string>
+    <string name="entername" translatable="false">Please enter Name</string>
+    <string name="text_store" translatable="false">Welcome to Coin Store\nThe easy way you can buy Coin!!</string>
+    <string name="profile_permission" translatable="false"><![CDATA[Profile picture Change You need to give permission. You can give permission From Android Setting -> App.]]></string>
+    <string name="permission_grant" translatable="false">Permission Grant</string>
+    <string name="oppentent_leave" translatable="false">Your opponent leave GameRoom!!</string>
+    <string name="delete_successfully" translatable="false">Deleted User Successfully</string>
+    <string name="re_login" translatable="false">Re-Login Again!!</string>
+    <string name="relogin_message" translatable="false">To delete Your account, You must have Login in recently.\nThen After you can delete your Account</string>
+    <string name="please_follow_" translatable="false">Please Follow on Social Media!! To Connect US!</string>
+    <string name="application_language" translatable="false">Application Language</string>
+    <string name="try_after_sometime" translatable="false">Try After Sometime</string>
+    <string name="wonagaines" translatable="false">I Won againest!!</string>
+    <string name="lostagainest" translatable="false">I lost Againest!!</string>
+    <string name="index" translatable="false">index</string>
+    <string name="levelfinish" translatable="false">I have finished Level No : </string>
+    <string name="with" translatable="false">with </string>
+    <string name="scorein" translatable="false"> Score in </string>
+    <string name="finishquiz" translatable="false">I have finished Quiz with </string>
+    <string name="quepreparing" translatable="false">Question Preparing...</string>
+    <string name="finish" translatable="false">I have finished</string>
+    <string name="minute" translatable="false">minute self challenge in</string>
+    <string name="minutein" translatable="false">minute in </string>
+    <string name="entercity" translatable="false">Please enter city</string>
+    <string name="next" translatable="false">NEXT</string>
+    <string name="finish_sign_up" translatable="false">FINISH</string>
+    <string name="change_number" translatable="false">Login with another number?</string>
+    <string name="click_here" translatable="false">Click Here!</string>
+    <string name="minutes" translatable="false">Minutes</string>
+    <string name="hours" translatable="false">Hours</string>
+    <string name="features" translatable="false">Features</string>
+    <string name="courses" translatable="false">Courses</string>
+    <string name="payout" translatable="false">Payout</string>
+    <string name="free" translatable="false">Free</string>
+    <string name="hour" translatable="false">Hour</string>
+
+    <string name="onboarding_slide1_title" translatable="false">Start learning now!</string>
+    <string name="onboarding_slide1_desc" translatable="false">Interested in to learn from the best teachers around the world?</string>
+    <string name="onboarding_slide2_title" translatable="false">Buy a course…</string>
+    <string name="onboarding_slide2_desc" translatable="false">Looking for better grades? Get a perfect course now!</string>
+    <string name="onboarding_slide3_title" translatable="false">Improve your skills!</string>
+    <string name="onboarding_slide3_desc" translatable="false">Start Learning right now and increase your knowledge.</string>
+    <string name="mcq_zone">MCQ Zone</string>
+    <string name="video_zone">Video Zone</string>
+
+
+</resources>

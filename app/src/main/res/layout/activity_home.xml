@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:fitsSystemWindows="true"
+    tools:context=".Home.ui.HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:background="@drawable/main_screen_curved_bg">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimaryDark"
+            android:paddingTop="10dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:titleTextAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:titleTextColor="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_back_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:background="@drawable/ic_new_drawer"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/padding_10"
+                    android:layout_toStartOf="@+id/imgLanguage"
+                    android:background="@drawable/main_btn"
+                    android:padding="@dimen/margin_10dp"
+                    android:src="@drawable/coins"
+                    android:visibility="gone"
+                    app:tint="@color/colorPrimaryDark"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginEnd="@dimen/txt_size_20"
+                    android:background="@drawable/main_btn"
+                    android:padding="@dimen/margin_10dp"
+                    android:src="@drawable/ic_language1"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.arteva.user.helper.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/toolBar"
+            android:layout_marginStart="@dimen/padding_15"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolBar"
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_toEndOf="@+id/imgProfile"
+            android:fontFamily="@font/open_sans_bold"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_marginBottom="@dimen/padding_10"
+            android:layout_toEndOf="@+id/imgProfile"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+
+                android:background="@drawable/shadow_curved"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:paddingStart="@dimen/padding_10"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingEnd="@dimen/padding_10"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_new_points"
+                app:drawableTint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/tv_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_5dp"
+                android:layout_toEndOf="@+id/tv_score"
+                android:background="@drawable/shadow_curved"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:paddingStart="@dimen/margin_dp"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingEnd="@dimen/margin_dp"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_new_coins"
+                app:drawableTint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/tv_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tv_coin"
+                android:background="@drawable/shadow_curved"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:paddingStart="@dimen/margin_dp"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingEnd="@dimen/margin_dp"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_new_leaderboard"
+                app:drawableTint="@color/white" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_top"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/lytCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="@dimen/margin_10dp">
+
+                <ImageView
+                    android:id="@+id/img_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:background="@drawable/ic_quiz_zone"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtQuiZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toStartOf="@+id/tv_view_all"
+                    android:layout_toEndOf="@+id/img_play"
+                    android:text="@string/mcq_zone"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_view_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/view_all"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_play"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="@dimen/margin_10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_battle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_dp"
+                    android:background="@drawable/ic_play_quiz"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtPlayZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_toEndOf="@+id/img_battle"
+                    android:text="@string/quiz_zone"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/PlayMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_battle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="@dimen/margin_10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_dp"
+                    android:background="@drawable/ic_play_quiz"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_toEndOf="@+id/img_video"
+                    android:text="@string/video_zone"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/videosRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_video"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="@dimen/margin_10dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

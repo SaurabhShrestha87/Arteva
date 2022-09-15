@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="false">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/map" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/splashScreenGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintGuide_percent="0.45"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/splashScreenImgContainer"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/circle_dash"
+            app:layout_constraintBottom_toTopOf="@+id/splashScreenGuideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@drawable/circle_white"
+            android:padding="52dp"
+            app:layout_constraintBottom_toBottomOf="@+id/splashScreenImgContainer"
+            app:layout_constraintEnd_toEndOf="@id/splashScreenImgContainer"
+            app:layout_constraintStart_toStartOf="@id/splashScreenImgContainer"
+            app:layout_constraintTop_toTopOf="@+id/splashScreenImgContainer"
+            app:srcCompat="@mipmap/ic_launcher" 
+            android:scaleType="center"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/splashScreenTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_30"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/splashScreenImgContainer"
+            tools:ignore="SpUsage" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:text="Easiest way to learn"
+            android:textColor="@color/white"
+            android:textSize="@dimen/padding_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/splashScreenTitleTv"
+            tools:ignore="SpUsage" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="-40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/sidemenu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBg"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Course Enrollment"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txtsize_22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/categoriesTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Your Subjects"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize_18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView"
+        tools:ignore="SpUsage" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoriesExpandableRv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_16"
+        android:background="@drawable/round_view_white_corner15"
+        android:elevation="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/pay_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoriesTv" />
+
+    <ProgressBar
+        android:id="@+id/categoriesProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/categoriesExpandableRv"
+        app:layout_constraintEnd_toEndOf="@id/categoriesExpandableRv"
+        app:layout_constraintStart_toStartOf="@id/categoriesExpandableRv"
+        app:layout_constraintTop_toTopOf="@+id/categoriesExpandableRv" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pay_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:enabled="false"
+        android:text="@string/payout"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_18"
+        android:layout_marginBottom="@dimen/padding_15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpUsage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

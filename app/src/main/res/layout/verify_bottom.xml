@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/imgClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:background="@drawable/ic_close"
+            android:backgroundTint="@color/white"
+            android:padding="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/maintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgClose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/padding_10"
+            android:text="@string/otp_msg"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:id="@+id/emailryt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/maintxt"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+            <in.aabhasjindal.otptextview.OtpTextView
+                android:id="@+id/editTextCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                app:bar_active_color="#82FCFCFC"
+                app:bar_enabled="true"
+                app:bar_height="50dp"
+                app:bar_inactive_color="#2BFFFFFF"
+                app:height="40dp"
+                app:length="6"
+                app:otp_text_size="24dp"
+                app:width="40dp" />
+
+        </RelativeLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/emailsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailryt"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/padding_10"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="@dimen/padding_10"
+            android:layout_marginBottom="100dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="8dp"
+            app:cardCornerRadius="30dp"
+            card_view:cardElevation="7dp"
+            card_view:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginEnd="120dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_bold"
+                android:gravity="center"
+                android:padding="@dimen/padding_10"
+                android:text="@string/verify"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>
